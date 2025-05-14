@@ -73,3 +73,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # react
 # react
 # react
+sudo apt update
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+echo deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu jammy stable | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt update
+apt-cache policy docker-ce
+check result like below out put
+docker-ce:
+  Installed: (none)
+  Candidate: 5:20.10.14~3-0~ubuntu-jammy
+  Version table:
+     5:20.10.14~3-0~ubuntu-jammy 500
+        500 https://download.docker.com/linux/ubuntu jammy/stable amd64 Packages
+     5:20.10.13~3-0~ubuntu-jammy 500
+        500 https://download.docker.com/linux/ubuntu jammy/stable amd64 Packages
+sudo apt install docker-ce
+sudo systemctl status docker
