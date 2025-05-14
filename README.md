@@ -96,14 +96,14 @@ docker-ce:
      5:20.10.13~3-0~ubuntu-jammy 500
         500 https://download.docker.com/linux/ubuntu jammy/stable amd64 Packages
         
-# install docekr
+# install docker
 sudo apt install docker-ce
 # check status
 sudo systemctl status docker
 
-# after installing docekr  run below commands
+# after installing docker  run below commands
 sudo docker build -t my-react
-# after build the docekr images run it using below command
+# after build the docker images run it using below command
 
 sudo docker run -p 3000:80 my-react
 
