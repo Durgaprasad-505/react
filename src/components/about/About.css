@@ -1,0 +1,232 @@
+/* Specific class for the About section to avoid conflicts */
+/* 
+.about-container {
+  position: absolute;
+  top: 5px; 
+  right: 5px; 
+  width: 990px;
+  height: 450px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  color: white;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; 
+  transition: background 0.3s ease-in-out;
+  background: url('about.jpg') no-repeat center / cover;
+}
+
+.App-logo {
+  width: 410px;
+  height: 90px;
+  margin-top: 30px;
+  margin-left: -550px;
+  object-fit: contain;
+}
+
+.App-logo1 {
+  width: 250px;
+  height: 300px;
+  margin-top: -50px;
+  margin-left: -750px;
+  object-fit: contain;
+}
+.about-container:hover {
+  background: rgba(255, 255, 255, 0.2);
+  background: url('about.jpg') no-repeat center / cover;
+}
+
+.App-logo2 {
+  width: 250px;
+  height: 140px;
+  margin-top: -10px;
+  margin-left: 130px;
+  object-fit: contain;
+}
+.about-container:hover {
+  background: rgba(255, 255, 255, 0.2);
+  background: url('about.jpg') no-repeat center / cover;
+}
+.About-content1 {
+  background: rgba(236, 230, 230, 0.1);
+  color: black;
+  width: 460px;
+  height: 120px;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+  margin-top: -90px;
+  margin-left: -540px;
+
+}
+
+.About-content2 {
+  background: rgba(236, 230, 230, 0.1);
+  color: black;
+  height: 125px;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+  margin-top: -295px;
+  margin-left: -75px;
+  width: 400px;
+
+}
+
+
+
+.About-content1:hover {
+  background: rgba(236, 230, 230, 0.7);
+  color: black;
+  width: 460px;
+  height: 120px;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+  margin-top: -90px;
+  margin-left: -540px;
+
+}
+
+.About-content2:hover {
+  background: rgba(236, 230, 230, 0.7);
+  color: black;
+  height: 125px;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+  margin-top: -295px;
+  margin-left: -75px;
+  width: 400px;
+
+} */
+
+.about-container{
+  background-color: rgba(255, 255, 255,1.0);
+  height: 480px;
+  width: 1060px;
+  margin-top: -275px;
+  margin-left: 241px;
+}
+.box1{
+  height: 150px;
+  width: 150px;
+  background-color:rgba(135, 230, 230,0.7);
+  /* margin: 550px 10px; */
+  margin-left: 100px;
+  /* margin-top: 150px; */
+  border-radius: 50%;
+  /* padding: 10px; */
+}
+
+.box2{
+  height: 50px;
+  width: 50px;
+  background-color:rgba(69, 90, 158, 0.7);
+  /* margin: 550px 10px; */
+  margin-left: 100px;
+  margin-top: -10px;
+  border-radius: 50%;
+  /* padding: 10px; */
+}
+.box3{
+  height: 100px;
+  width: 100px;
+  background-color:rgba(190, 91, 182, 0.7);
+  /* margin: 550px 10px; */
+  margin-left: 220px;
+  margin-top: -80px;
+  border-radius: 50%;
+  /* padding: 10px; */
+}
+.box4{
+  height: 20px;
+  width: 20px;
+  background-color:rgba(255, 255, 0, 0.8);
+  /* margin: 550px 10px; */
+  margin-left: 290px;
+  margin-top: -115px;
+  border-radius: 50%;
+  /* padding: 10px; */
+}
+.box5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  color: black;
+  height: 50px;
+  width: 170px;
+  margin-top: -50px;
+  margin-left: 100px;
+  /* background-color: white; */
+  
+}
+
+.box5:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+}
+
+.box6{
+  height: 120px;
+  width: 120px;
+  background-color:rgba(91, 224, 14, 0.8);
+  /* margin: 550px 10px; */
+  margin-left: 890px;
+  margin-top: 170px;
+  border-radius: 50%;
+  /* padding: 10px; */
+}
+
+.box7{
+  height: 80px;
+  width: 80px;
+  background-color:rgba(167, 11, 11, 0.8);
+  /* margin: 550px 10px; */
+  margin-left: 825px;
+  margin-top: -50px;
+  border-radius: 50%;
+  /* padding: 10px; */
+}
+
+.box8{
+  height: 55px;
+  width: 55px;
+  background-color:rgba(203, 216, 16, 0.8);
+  /* margin: 550px 10px; */
+  margin-left: 870px;
+  margin-top: -180px;
+  border-radius: 50%;
+  /* padding: 10px; */
+}
+
+.box9{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  color: black;
+  height: 180px;
+  width: 670px;
+  margin-top: -180px;
+  margin-left: 220px;
+  /* background-color: brown; */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  /* background-color: white; */
+}
+
+.box9:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+}

@@ -1,0 +1,58 @@
+.h-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255,0.4);
+  color: black;
+  height: 30px;
+  width: 1040px;
+  margin-top: -445px;
+  margin-left: 242px;
+}
+
+.h-ground {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 477px;
+  margin-left: -1030px;
+  margin-right: 20px;
+  /* background-color: rgba(255, 255, 255,0.9); */
+  /* background-color: rgba(255, 255, 255,0.9); */
+  color: black;
+  height: 428px;
+  width: 1030px;
+}
+
+.h-menu-icons {
+  display: flex;
+  padding-right: 50px;
+  gap: 27px;
+  font-size: 27px;
+}
+
+.h-fa-icon {
+  /* margin-left: -130px; */
+  margin-right: 5px;
+}
+
+.h-menu-icons .h-fa-icon {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 10px;
+  border-radius: 50%; /* Optional: to give a circular background */
+  
+}
+
+/* Hover effect for icons */
+.h-menu-icons .h-fa-icon:hover {
+  font-size: 30px; /* Increase icon size */
+  color: white;
+  background-color: #007BFF; /* Change to desired background color */
+}
+
+.logo{
+  height: 50px;
+  margin-right:410px ;
+}

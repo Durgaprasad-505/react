@@ -1,0 +1,174 @@
+/* * {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  #root {
+    min-width: 200px;
+    min-height: 200px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .body {
+    position: fixed;
+    overflow: hidden;
+    overscroll-behavior-y: none;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+  }
+   */
+
+
+   /* html,
+body,
+#root {
+  height: 600px;
+  width: 1300px;
+}
+
+body {
+  font-family: system-ui;
+  margin: 0;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+} */
+
+
+
+/* sample.module.css */
+
+.container > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  pointer-events: none;
+  justify-content: start !important;
+  font-family: 'Kanit', sans-serif;
+  line-height: 0px;
+  text-transform: uppercase;
+}
+
+.number {
+  font-size: 30px;
+  color: #545864;
+  /* text-align: center; */
+}
+
+.slopeBegin {
+  background-color: #20232f; /*#20232f*/
+  clip-path: polygon(20% 0, 70% 0, 50% 100%, 0% 100%);
+}
+
+.slopeEnd {
+  clip-path: polygon(70% 0, 100% 0, 80% 100%, 50% 100%);
+}
+
+.slopeBegin,
+.slopeEnd {
+  position: absolute;
+  width: 170%;
+  height: 90%;
+  cursor: pointer;
+}
+
+.pink {
+  background: linear-gradient(to right, deeppink 0%, coral 100%);
+}
+
+.teal {
+  background: linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%);
+}
+
+.tomato {
+  background: linear-gradient(to right, tomato 0%, gold 100%);
+}
+
+.pageImage {
+  width: 500px; /* Adjust width */
+  height: auto; /* Adjust height */
+  pointer-events: none; /* Ensures clicking the image doesn’t affect parallax */
+}
+
+
+
+.Headerp1 {
+  font-size: 1.9em;
+  margin: 0.5em 0;
+  margin-top: -20px;
+  margin-left: 50px;
+}
+
+.Headerp3{
+  font-size: 1.9em;
+  margin: 0.5em 0;
+  margin-top: -20px;
+  margin-left: 50px;
+
+}
+
+.descriptionp1 {
+  font-size: 45px;
+  margin: 0.2em 0;
+  margin-top: 250px;
+  margin-left: 350px ;
+  color:white;
+}
+
+.subHeaderp2{
+  font-size: 0.8em;
+  margin: 0.5em 0;
+  margin-top: -160px;
+  margin-left: 25px;
+  /* color: white; */
+
+}
+.subHeaderp22{
+  font-size: 0.75em;
+  margin: 0.5em 0;
+  margin-top: -70px;
+  margin-left: -760px;
+  /* color: white; */
+
+}
+.descriptionp2 {
+  font-size: 45px;
+  margin: 0.2em 0;
+  margin-top: 250px;
+  margin-left: 100px ;
+  color: white;
+}
+
+.descriptionp3 {
+  font-size: 45px;
+  margin: 0.2em 0;
+  margin-top: 250px;
+  margin-left: 400px ;
+  color: white;
+  
+}
+
+.image {
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  pointer-events: none; /* Prevents clicks on image affecting parallax */
+}
+

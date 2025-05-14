@@ -1,0 +1,51 @@
+.glass-text {
+    position: absolute;
+    bottom: 20px; /* Adjust position from the bottom */
+    left: 20px; /* Align towards the left side */
+    width: 1220px; /* Set a width for the container */
+    height: 450px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(0.05px);
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Space between image and text */
+    transition: background 0.3s ease-in-out;
+  }
+  
+  
+  .glass-text:hover {
+    color:black;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+
+  /* Main.css */
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+.content {
+  flex: 1;
+  padding: 20px;
+  /* background-color: #ecf0f1; */
+}
+
+.header-text {
+  font-size: 32px;
+  color: #030303;
+}
+.Lines1{
+  margin-top: -305px;
+  margin-right: -244px;
+  width: 1060px;
+  height: 1100px;
+  color: white;
+  /* background-color: white; */
+}

@@ -1,0 +1,52 @@
+.a-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    color:black;
+    height: 30px;
+    width: 1010px;
+    margin-top: -445px;
+    margin-left: 222px;
+  }
+  .a-ground{
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+    text-align: center;
+    margin-top: 477px;
+    margin-left: -1020px;
+    margin-right: -10px;
+    background-color: black;
+    color:white;
+    height: 428px;
+    width: 1030px;
+
+  }
+
+  
+  .a-menu-icons {
+    display: flex;
+    padding-right: 50px;
+    gap: 27px;
+    font-size: 27px;
+  }
+  
+  .a-menu-icons .a-fa-icon {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px;
+    border-radius: 50%; /* Optional: to give a circular background */
+  }
+  
+  /* Hover effect for icons */
+  .a-menu-icons .a-fa-icon:hover {
+    font-size: 30px; /* Increase icon size */
+    color: white;
+    background-color: #007BFF; /* Change to desired background color */
+  }
+    
+  
+  
+
