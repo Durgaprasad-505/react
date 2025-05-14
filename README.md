@@ -68,18 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# react-js
-# react-js
+
+
 # react
-# react
-# react
+
+
 sudo apt update
+# command 1
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
+# command 2
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+# command 3
 echo deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu jammy stable | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+# agine update
 sudo apt update
+# docker policy
 apt-cache policy docker-ce
-check result like below out put
+# check result output for policy
+check result like below out put:
+
 docker-ce:
   Installed: (none)
   Candidate: 5:20.10.14~3-0~ubuntu-jammy
@@ -88,5 +95,17 @@ docker-ce:
         500 https://download.docker.com/linux/ubuntu jammy/stable amd64 Packages
      5:20.10.13~3-0~ubuntu-jammy 500
         500 https://download.docker.com/linux/ubuntu jammy/stable amd64 Packages
+        
+# install docekr
 sudo apt install docker-ce
+# check status
 sudo systemctl status docker
+
+# after installing docekr  run below commands
+sudo docker build -t my-react
+# after build the docekr images run it using below command
+
+sudo docker run -p 3000:80 my-react
+
+# Note Allow network 3000 port
+
